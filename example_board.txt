@@ -1,0 +1,8 @@
+START:A
+A:START, B, END
+B:A, C, D, END
+C:B
+villages:A, C, D
+D:B, END
+END:A, B, D
+cities:B
